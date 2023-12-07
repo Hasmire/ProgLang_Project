@@ -1,0 +1,74 @@
+[
+  {
+    "link": "",
+    "number": "01",
+    "title": "Web-Centric Focus",
+    "description": "PHP was specifically designed for web development. Its syntax is embedded in HTML, making it easy to mix code and HTML content. This design choice streamlines the process of creating dynamic web pages and interacting with databases."
+  },
+  {
+    "link": "",
+    "number": "02",
+    "title": "Server-Side Scripting",
+    "description": "The primary role of PHP is server-side scripting. By executing on the server, PHP can generate dynamic content before sending it to the browser. This enhances security by keeping the source code on the server, and it allows developers to create interactive and data-driven web applications."
+  },
+  {
+    "link": "",
+    "number": "03",
+    "title": "Easy Integration with HTML",
+    "description": "PHP is designed to be easily integrated with HTML, enabling developers to embed PHP code directly within HTML files. This simplifies the process of mixing dynamic server-side logic with static client-side content."
+  },
+  {
+    "link": "",
+    "number": "04",
+    "title": "Procedural and Object-Oriented Paradigms",
+    "description": "PHP started as a procedural language, mirroring the style of many web applications at the time. The introduction of object-oriented features in later versions accommodated the growing complexity of web applications, providing developers with the flexibility to choose between procedural and object-oriented programming based on project requirements and coding preferences."
+  },
+  {
+    "link": "",
+    "number": "05",
+    "title": "Open Source and Community-Driven",
+    "description": "PHP is an open-source language, meaning that its source code is freely available to the public. This has led to a large and active community of developers who contribute to its development, share code snippets, and provide support. The open-source nature promotes collaboration and continuous improvement."
+  },
+  {
+    "link": "",
+    "number": "06",
+    "title": "Cross-Platform Compatibility",
+    "description": "PHP is platform-independent, supporting various operating systems like Windows, Linux, and macOS. This flexibility allows developers to deploy PHP applications on a wide range of servers, contributing to its widespread adoption."
+  },
+  {
+    "link": "",
+    "number": "07",
+    "title": "Databases and Data Handling",
+    "description": "PHP has built-in support for interacting with databases, which is crucial for web applications. Its ease of integration with databases, particularly with MySQL, has contributed to its popularity for building data-driven websites."
+  },
+  {
+    "link": "",
+    "number": "08",
+    "title": "Practical Error Handling",
+    "description": "PHP provides practical error handling mechanisms, making it easier for developers to identify and address issues during development and deployment. This includes detailed error messages for debugging and logging."
+  },
+  {
+    "link": "",
+    "number": "09",
+    "title": "Continuous Improvement and Version Upgrades",
+    "description": "PHP undergoes continuous development and improvements. Regular version upgrades introduce new features, enhancements, and security fixes. This ensures that PHP stays relevant, secure, and capable of meeting the evolving needs of web developers."
+  },
+  {
+    "link": "",
+    "number": "10",
+    "title": "Binding of Variables",
+    "description": "PHP dynamically binds variables to data types, values, and scope. Variable binding happens at runtime, as opposed to C or Java, where variable types are bound at compile-time. This flexibility is crucial when handling user input, database queries, and dynamic content generation."
+  },
+  {
+    "link": "",
+    "number": "11",
+    "title": "Commonly used Data Types and their limitations",
+    "description": "PHP supports various data types such as Integer, Float, String, Boolean, Array, and Object, each with its limitations. These limitations include platform architecture constraints, precision limitations, memory constraints, and specific values for Boolean types."
+  },
+  {
+    "link": "",
+    "number": "12",
+    "title": "Encapsulation, Inheritance and Polymorphism",
+    "description": "Object-oriented programming (OOP) is prevalent in PHP, allowing for the encapsulation, inheritance, and polymorphism of code. This approach enhances code organization and reusability, providing a structured way to manage complex applications."
+  }
+]

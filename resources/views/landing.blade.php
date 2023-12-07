@@ -3,12 +3,15 @@
 
 <head>
   <title>Welcome to Our Site</title>
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   @vite('resources/css/app.css')
 </head>
 
+@php
+  $cards = json_decode(file_get_contents(resource_path('cards.json')), true);
+@endphp
+
 <body>
-  <div class="flex h-screen w-full flex-col items-center bg-slate-100 py-4">
+  <div class="flex w-full flex-col items-center bg-slate-100 py-4">
     <div class="text-center">
       <div class="text-3xl font-semibold text-red-500">
         PHP Programming Language
@@ -17,22 +20,10 @@
         by Ambal, Bulan, Lagman
       </div>
     </div>
-    <div class="mx-4 mt-8 md:mx-0 md:w-[600px]">
-      <a href="https://laravel.com/docs"
-        class="duration-250 s cale-100 flex rounded-lg bg-white from-gray-700/50 via-transparent p-6 shadow-2xl shadow-gray-500/20 transition-all focus:outline focus:outline-2 focus:outline-red-500 motion-safe:hover:scale-[1.01]">
-        <div>
-          <div class="flex h-16 w-16 items-center justify-center rounded-full bg-red-50">
-            <p class="text-xl text-red-500">
-              1
-            </p>
-          </div>
-          <h2 class="mt-6 text-xl font-semibold text-gray-900">Web-Centric Focus</h2>
-          <p class="mt-4 text-sm leading-relaxed text-slate-500">
-            Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer
-            or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-          </p>
-        </div>
-      </a>
+    <div class="mt-8 flex w-full flex-row flex-wrap justify-center gap-6 px-8 md:w-9/12">
+      @foreach ($cards as $card)
+        <x-card :link="$card['link']" :number="$card['number']" :title="$card['title']" :description="$card['description']" />
+      @endforeach
     </div>
   </div>
 </body>

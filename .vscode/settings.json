@@ -1,5 +1,9 @@
 {
   "editor.formatOnSave": true,
+  "files.associations": {
+    "*.blade.php": "blade",
+    "*.php": "php"
+  },
   "[php]": {
     "editor.defaultFormatter": "open-southeners.laravel-pint"
   },
