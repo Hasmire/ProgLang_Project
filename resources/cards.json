@@ -48,7 +48,7 @@
     "description": "PHP provides practical error handling mechanisms, making it easier for developers to identify and address issues during development and deployment. This includes detailed error messages for debugging and logging."
   },
   {
-    "link": "https://www.php.net/supported-versions.php",
+    "link": "version-upgrades",
     "number": "09",
     "title": "Continuous Improvement and Version Upgrades",
     "description": "PHP undergoes continuous development and improvements. Regular version upgrades introduce new features, enhancements, and security fixes. This ensures that PHP stays relevant, secure, and capable of meeting the evolving needs of web developers."

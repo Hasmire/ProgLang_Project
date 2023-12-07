@@ -28,6 +28,7 @@ Route::get('database-demo', [Controller::class, 'databaseDemo']);
 Route::get('crossplatform-demo', [Controller::class, 'crossPlatformDemo']);
 
 // Numbers 9 to 12 [Jay]
+Route::get('version-upgrades', [Controller::class, 'demoVersionUpgrades']);
 Route::get('binding', [Controller::class, 'demoBinding']);
 Route::get('data-type', [Controller::class, 'demoDataType']);
 Route::get('oop-paradigm', [Controller::class, 'demoOOP']);
