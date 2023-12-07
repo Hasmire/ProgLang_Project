@@ -22,6 +22,9 @@ Route::view('server-side', 'demos.server-side-scripting');
 Route::view('easy-integration', 'demos.easy-integration');
 Route::get('procedural-object-oriented', [Controller::class, 'demoProceduralObject']);
 
+// Numbers 5-8 [Lancelot]
+Route::get('error-handling', [Controller::class, 'errorHandling']);
+
 // Numbers 9 to 12 [Jay]
 Route::get('binding', [Controller::class, 'demoBinding']);
 Route::get('data-type', [Controller::class, 'demoDataType']);

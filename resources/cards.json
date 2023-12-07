@@ -42,7 +42,7 @@
     "description": "PHP has built-in support for interacting with databases, which is crucial for web applications. Its ease of integration with databases, particularly with MySQL, has contributed to its popularity for building data-driven websites."
   },
   {
-    "link": "",
+    "link": "error-handling",
     "number": "08",
     "title": "Practical Error Handling",
     "description": "PHP provides practical error handling mechanisms, making it easier for developers to identify and address issues during development and deployment. This includes detailed error messages for debugging and logging."
