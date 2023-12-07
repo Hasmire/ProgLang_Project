@@ -9,6 +9,7 @@ use App\Http\Controllers\MyClasses\Dog;
 use App\Http\Controllers\MyClasses\ErrorHandler;
 use App\Http\Controllers\MyClasses\MyClass;
 use App\Http\Controllers\MyClasses\Square;
+use App\Models\User;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
@@ -155,5 +156,36 @@ class Controller extends BaseController
       $d = $myClass->scale_by_log($a, -2.5);
       dump($d); // Never reached
 
+    }
+
+    public function databaseDemo(){
+
+      echo '<div style="text-align: center;">';
+
+      echo '<div style="margin-right: 10px;">';
+      echo '<img src="'.asset('images/database-demo1.png').'" alt="Your Image" width="700">';
+      echo '</div>';
+
+      echo '<div style="margin-right: 10px;">';
+      echo '<img src="'.asset('images/database-demo2.png').'" alt="Your Image" width="700">';
+      echo '</div>';
+
+      echo '</div>';
+
+      $users = User::all(); // Use the User model to fetch users
+
+      // Start building an HTML string
+      $output = '<div style="text-align: center; font-size: 24px; margin-top: 50px;">';
+
+      foreach ($users as $user) {
+          // Add user information to the HTML string
+          $output .= "<p>User: {$user->name} - Email: {$user->email}</p>";
+      }
+
+      // Close the HTML div tag
+      $output .= '</div>';
+
+      // Echo the HTML string
+      echo $output;
     }
 }

@@ -36,7 +36,7 @@
     "description": "PHP is platform-independent, supporting various operating systems like Windows, Linux, and macOS. This flexibility allows developers to deploy PHP applications on a wide range of servers, contributing to its widespread adoption."
   },
   {
-    "link": "",
+    "link": "database-demo",
     "number": "07",
     "title": "Databases and Data Handling",
     "description": "PHP has built-in support for interacting with databases, which is crucial for web applications. Its ease of integration with databases, particularly with MySQL, has contributed to its popularity for building data-driven websites."

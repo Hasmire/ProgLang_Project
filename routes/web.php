@@ -24,6 +24,7 @@ Route::get('procedural-object-oriented', [Controller::class, 'demoProceduralObje
 
 // Numbers 5-8 [Lancelot]
 Route::get('error-handling', [Controller::class, 'errorHandling']);
+Route::get('database-demo', [Controller::class, 'databaseDemo']);
 
 // Numbers 9 to 12 [Jay]
 Route::get('binding', [Controller::class, 'demoBinding']);
