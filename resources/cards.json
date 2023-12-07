@@ -66,7 +66,7 @@
     "description": "PHP supports various data types such as Integer, Float, String, Boolean, Array, and Object, each with its limitations. These limitations include platform architecture constraints, precision limitations, memory constraints, and specific values for Boolean types."
   },
   {
-    "link": "",
+    "link": "oop-paradigm",
     "number": "12",
     "title": "Encapsulation, Inheritance and Polymorphism",
     "description": "Object-oriented programming (OOP) is prevalent in PHP, allowing for the encapsulation, inheritance, and polymorphism of code. This approach enhances code organization and reusability, providing a structured way to manage complex applications."

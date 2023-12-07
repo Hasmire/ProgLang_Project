@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('binding', [Controller::class, 'demoBinding']);
 Route::get('data-type', [Controller::class, 'demoDataType']);
+Route::get('oop-paradigm', [Controller::class, 'demoOOP']);
