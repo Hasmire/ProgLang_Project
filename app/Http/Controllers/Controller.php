@@ -188,4 +188,29 @@ class Controller extends BaseController
       // Echo the HTML string
       echo $output;
     }
+
+    public function crossPlatformDemo() {
+      $output = '<div style="text-align: center; font-size: 24px; margin-top: 50px;">';
+
+      $commands = [
+          '# Install Laravel Homestead globally',
+          'composer global require laravel/homestead',
+          '# Initialize Homestead in your Laravel project',
+          'php vendor/bin/homestead make',
+          '# Start the virtual machine',
+          'vagrant up',
+          '# Access the Laravel application in your browser',
+      ];
+
+      foreach ($commands as $command) {
+          // Add each command to the HTML string
+          $output .= "<p>{$command}</p>";
+      }
+
+      // Close the HTML div tag
+      $output .= '</div>';
+
+      // Echo the HTML string
+      echo $output;
+    }
 }
