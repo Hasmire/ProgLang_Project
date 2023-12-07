@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "[blade.php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
