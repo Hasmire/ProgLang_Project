@@ -1,14 +1,11 @@
 {
   "arrowParens": "avoid",
-  "jsxBracketSameLine": true,
   "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "all",
   "plugins": ["@shufo/prettier-plugin-blade"],
   "sortTailwindcssClasses": true,
-  "tailwindConfig": "./tailwind.config.js",
-  "prettier.documentSelectors": ["**/*.blade.php"],
   "overrides": [
     {
       "files": ["*.blade.php"],

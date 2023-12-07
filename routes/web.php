@@ -14,10 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
-});
+Route::view('/', 'landing');
 
+// Numbers 1 to 4 [Gregg]
+Route::view('web-centric', 'demos.web-centric');
+Route::view('server-side', 'demos.server-side-scripting');
+Route::view('easy-integration', 'demos.easy-integration');
+Route::get('procedural-object-oriented', [Controller::class, 'demoProceduralObject']);
+
+// Numbers 9 to 12 [Jay]
 Route::get('binding', [Controller::class, 'demoBinding']);
 Route::get('data-type', [Controller::class, 'demoDataType']);
 Route::get('oop-paradigm', [Controller::class, 'demoOOP']);

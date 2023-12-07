@@ -4,7 +4,7 @@ namespace App\Http\Controllers\MyClasses;
 
 class Circle implements Shape
 {
-    private $radius;
+    public $radius;
 
     public function __construct($radius)
     {
