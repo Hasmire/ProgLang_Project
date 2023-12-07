@@ -24,25 +24,25 @@
     "description": "PHP started as a procedural language, mirroring the style of many web applications at the time. The introduction of object-oriented features in later versions accommodated the growing complexity of web applications, providing developers with the flexibility to choose between procedural and object-oriented programming based on project requirements and coding preferences."
   },
   {
-    "link": "",
+    "link": "https://github.com/laravel/laravel",
     "number": "05",
     "title": "Open Source and Community-Driven",
     "description": "PHP is an open-source language, meaning that its source code is freely available to the public. This has led to a large and active community of developers who contribute to its development, share code snippets, and provide support. The open-source nature promotes collaboration and continuous improvement."
   },
   {
-    "link": "",
+    "link": "crossplatform-demo",
     "number": "06",
     "title": "Cross-Platform Compatibility",
     "description": "PHP is platform-independent, supporting various operating systems like Windows, Linux, and macOS. This flexibility allows developers to deploy PHP applications on a wide range of servers, contributing to its widespread adoption."
   },
   {
-    "link": "",
+    "link": "database-demo",
     "number": "07",
     "title": "Databases and Data Handling",
     "description": "PHP has built-in support for interacting with databases, which is crucial for web applications. Its ease of integration with databases, particularly with MySQL, has contributed to its popularity for building data-driven websites."
   },
   {
-    "link": "",
+    "link": "error-handling",
     "number": "08",
     "title": "Practical Error Handling",
     "description": "PHP provides practical error handling mechanisms, making it easier for developers to identify and address issues during development and deployment. This includes detailed error messages for debugging and logging."
