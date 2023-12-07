@@ -2,6 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\MyClasses\Animal;
+use App\Http\Controllers\MyClasses\Cat;
+use App\Http\Controllers\MyClasses\Circle;
+use App\Http\Controllers\MyClasses\Dog;
+use App\Http\Controllers\MyClasses\MyClass;
+use App\Http\Controllers\MyClasses\Square;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
@@ -50,7 +56,7 @@ class Controller extends BaseController
 
         // Array
         $arrayVar = [1, 2, 3];
-        dump('Array: ', $arrayVar);
+        dump($arrayVar);
 
         // Object
         $objectVar = new MyClass('ObjectProperty');
@@ -78,86 +84,5 @@ class Controller extends BaseController
 
         dump('Circle Area: '.$circle->calculateArea());
         dump('Square Area: '.$square->calculateArea());
-    }
-}
-
-class MyClass
-{
-    public $property;
-
-    public function __construct($value)
-    {
-        $this->property = $value;
-    }
-}
-
-class Animal
-{
-    public $name;
-
-    public function __construct($name)
-    {
-        $this->name = $name;
-    }
-
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    public function makeSound()
-    {
-        return 'Generic Animal Sound';
-    }
-}
-
-class Dog extends Animal
-{
-    public function makeSound()
-    {
-        return 'Woof!';
-    }
-}
-
-class Cat extends Animal
-{
-    public function makeSound()
-    {
-        return 'Meow!';
-    }
-}
-
-interface Shape
-{
-    public function calculateArea();
-}
-
-class Circle implements Shape
-{
-    private $radius;
-
-    public function __construct($radius)
-    {
-        $this->radius = $radius;
-    }
-
-    public function calculateArea()
-    {
-        return pi() * $this->radius * $this->radius;
-    }
-}
-
-class Square implements Shape
-{
-    private $side;
-
-    public function __construct($side)
-    {
-        $this->side = $side;
-    }
-
-    public function calculateArea()
-    {
-        return $this->side * $this->side;
     }
 }
