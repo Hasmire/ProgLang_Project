@@ -27,4 +27,43 @@ class Controller extends BaseController
         $result = $number + 10;  // PHP will automatically convert $number to an integer for the addition
         dump("Result: $result");
     }
+
+    public function demoDataType()
+    {
+        echo '<img src="'.asset('images/datatype_snippet_1.png').'" alt="Your Image" height="350">';
+        echo '<img src="'.asset('images/datatype_snippet_2.png').'" alt="Your Image" height="300">';
+        // Integer
+        $integerVar = 42;
+        dump("Integer: $integerVar");
+
+        // Float
+        $floatVar = 3.14;
+        dump("Float: $floatVar");
+
+        // String
+        $stringVar = 'Hello, World!';
+        dump("String: $stringVar");
+
+        // Boolean
+        $boolVar = true;
+        dump('Boolean: '.var_export($boolVar, true));
+
+        // Array
+        $arrayVar = [1, 2, 3];
+        dump('Array: ', $arrayVar);
+
+        // Object
+        $objectVar = new MyClass('ObjectProperty');
+        dump('Object Property: '.$objectVar->property);
+    }
+}
+
+class MyClass
+{
+    public $property;
+
+    public function __construct($value)
+    {
+        $this->property = $value;
+    }
 }

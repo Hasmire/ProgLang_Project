@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('binding', [Controller::class, 'demoBinding']);
+Route::get('data-type', [Controller::class, 'demoDataType']);

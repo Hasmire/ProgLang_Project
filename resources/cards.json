@@ -60,7 +60,7 @@
     "description": "PHP dynamically binds variables to data types, values, and scope. Variable binding happens at runtime, as opposed to C or Java, where variable types are bound at compile-time. This flexibility is crucial when handling user input, database queries, and dynamic content generation."
   },
   {
-    "link": "",
+    "link": "data-type",
     "number": "11",
     "title": "Commonly used Data Types and their limitations",
     "description": "PHP supports various data types such as Integer, Float, String, Boolean, Array, and Object, each with its limitations. These limitations include platform architecture constraints, precision limitations, memory constraints, and specific values for Boolean types."
