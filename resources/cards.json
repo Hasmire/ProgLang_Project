@@ -54,7 +54,7 @@
     "description": "PHP undergoes continuous development and improvements. Regular version upgrades introduce new features, enhancements, and security fixes. This ensures that PHP stays relevant, secure, and capable of meeting the evolving needs of web developers."
   },
   {
-    "link": "",
+    "link": "/binding",
     "number": "10",
     "title": "Binding of Variables",
     "description": "PHP dynamically binds variables to data types, values, and scope. Variable binding happens at runtime, as opposed to C or Java, where variable types are bound at compile-time. This flexibility is crucial when handling user input, database queries, and dynamic content generation."
